@@ -1,0 +1,107 @@
+@import "./../../style/variables.scss";
+.ContainerButton {
+  width: 25%;
+  height: 100%;
+}
+.ContactButton {
+  color: $white;
+  font-weight: 500 !important;
+  font-size: 25px;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom-left-radius: 25%;
+  border-top-right-radius: 25%;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid $white;
+}
+// Top corner Border
+.Corner {
+  position: absolute;
+  top: -25px;
+  left: -26px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  border-right: 2.5px solid $yellow;
+  z-index: -1;
+  border-radius: -5px;
+  transition: 0.5s;
+}
+.LeftCorner {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  top: 22px;
+  left: -6px;
+  border-left: 2.5px solid $yellow;
+  border-radius: 2%;
+  transition: 0.5s;
+}
+.TopCorner {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  top: -5.5px;
+  left: 23px;
+  border-top: 2.5px solid $yellow;
+  border-radius: 2%;
+  transition: 0.5s;
+}
+.ContactButton:hover {
+  .Corner {
+    border-right: 2.5px solid $brown;
+  }
+  .LeftCorner {
+    border-left: 2.5px solid $brown;
+  }
+  .TopCorner {
+    border-top: 2.5px solid $brown;
+  }
+}
+// Bottom Corner border
+.BottomCorner {
+  position: absolute;
+  bottom: -25px;
+  right: -26px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  border-left: 2.5px solid $yellow;
+  z-index: -1;
+  border-radius: -5px;
+  transition: 0.5s;
+}
+.BottomLeftCorner {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  bottom: 23px;
+  right: -5px;
+  border-right: 2.5px solid $yellow;
+  border-radius: 2%;
+  transition: 0.5s;
+}
+.BottomTopCorner {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  bottom: -5.5px;
+  right: 23px;
+  border-bottom: 2.5px solid $yellow;
+  border-radius: 2%;
+  transition: 0.5s;
+}
+.ContactButton:hover {
+  .BottomCorner {
+    border-left: 2.5px solid $brown;
+  }
+  .BottomLeftCorner {
+    border-right: 2.5px solid $brown;
+  }
+  .BottomTopCorner {
+    border-bottom: 2.5px solid $brown;
+  }
+}

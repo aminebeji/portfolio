@@ -1,0 +1,33 @@
+.NavBar {
+  position: sticky;
+  top : 0;
+}
+.Section {
+	height: 100%;
+	padding-top: 8%;
+	scroll-behavior: smooth;
+}
+.Main {
+  background-image: url("http://localhost:3000/photos/summonersrift.jpg");
+	scroll-behavior: smooth;
+	//background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+.Content {
+	scroll-behavior: smooth;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

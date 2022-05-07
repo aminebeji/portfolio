@@ -1,0 +1,57 @@
+@import "./../../style/variables.scss";
+.MainMenu {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+.Menu {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  width: 30%;
+}
+.MainSideBar {
+  display: none;
+}
+.MenuItem {
+  width: fit-content;
+  color: $white;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  transition: 1s;
+}
+a {
+  text-decoration: none;
+  color: $white;
+  font-weight: 800;
+  font-size: 15px;
+  transition: 1s;
+}
+.MenuItem:hover {
+  border-bottom: 1px solid gray;
+}
+a:hover {
+  color: gray;
+}
+.Logo {
+  color: $yellow;
+  font-weight: 500 !important;
+  font-size: 25px;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+@media screen AND (max-width: 792px) {
+  .MainSideBar {
+    display: flex;
+  }
+  .MainMenu {
+    display: none;
+  }
+}
