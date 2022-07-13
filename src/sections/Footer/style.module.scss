@@ -1,27 +1,75 @@
-.Footer {
-    position: sticky;
-    bottom: 18%;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+@import "./../../style/variables.scss";
 
+.Footer {
+    width: 100%;
 }
 
 .EmailContainer {
-    transform: rotate(90deg);
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 1.5%;
+    width: 40px;
     display: flex;
+   // flex-direction: column;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.EmailContainer:hover {
+    .Email {
+        cursor: pointer;
+        color: $Green-color ;
+        padding-bottom: 1.5%;
+        transform: scale(1);
+        a {
+            color :  $Green-color;
+        }
+    }
+    
+}
+.EmailContainer::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+   // margin: 0 auto;
+    background-color: #CCD6F6;
+    transition: 0.3s ease-in;
+
+}
+.EmailContainer:hover:before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 120px;
+   // margin: 0 auto;
+    background-color: #CCD6F6;
 }
 .Icons {
     font-size: 14px;
-}
-.Email {
     margin: 0;
-    font-size: 14px;
 }
 
-Line {
-    width: 150px !important;
-    height: 1.5px;
-    background-color: #CCD6F6;
+.Email {
+    writing-mode: vertical-rl;
+    //margin: 0 !important;
+    font-size: 12px;
+    transition: 0.3s ease-in;
+    a {
+        color : #CCD6F6;
+        text-decoration: none;
+    }
+}
+
+
+
+.Socials {
+    position: fixed;
+    bottom: 17%;
+    left: 3%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
