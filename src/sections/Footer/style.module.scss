@@ -1,0 +1,27 @@
+.Footer {
+    position: sticky;
+    bottom: 18%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.EmailContainer {
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+}
+.Icons {
+    font-size: 14px;
+}
+.Email {
+    margin: 0;
+    font-size: 14px;
+}
+
+Line {
+    width: 150px !important;
+    height: 1.5px;
+    background-color: #CCD6F6;
+}

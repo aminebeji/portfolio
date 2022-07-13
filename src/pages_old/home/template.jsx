@@ -1,8 +1,8 @@
 import React from 'react'
 import S from "./style.module.scss"
-import NavBar from '../../components/navBar/template';
-import Accueil from '../../components/AccueilSection/template';
-import ProjectSection from '../../components/ProjectsSections/template';
+import NavBar from '../../components_old/navBar/template';
+import Accueil from '../../components_old/AccueilSection/template';
+import ProjectSection from '../../components_old/ProjectsSections/template';
 function HomePage() {
   return (
     <div className={S.Main} >

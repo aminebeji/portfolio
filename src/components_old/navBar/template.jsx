@@ -16,9 +16,9 @@ function NavBar() {
             return <MenuItem page={page} key={index} />
           })}
         </ul>
-        <div className={`${S.ContainerButton}`}> 
+        <div className={`${S.ContainerButton}`}>
         </div>
-        <CummonButton onClick={()=> {console.log("clicked me !")}} title={"contact me"} />
+        <CummonButton onClick={() => { console.log("clicked me !") }} title={"contact me"} />
       </div>
       <div className={S.MainSideBar} >
         Side Bar Button

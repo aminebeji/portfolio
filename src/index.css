@@ -8,7 +8,8 @@ html {
 }
 * {
   font-family:"Quantum" ;
-  letter-spacing: 2px !important;
+  letter-spacing: 1px !important;
+  color : #CCD6F6;
 }
 body {
   margin: 0;
@@ -24,4 +25,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  max-width: 1470px !important;
 }

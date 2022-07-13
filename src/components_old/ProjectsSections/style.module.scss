@@ -3,6 +3,8 @@
 .Projects {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2.5%;
 }
 .Title {
     color : $yellow;
