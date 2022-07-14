@@ -1,17 +1,22 @@
 import React from 'react'
+import Github from '../../assets/svgs/github'
+import Instagram from '../../assets/svgs/Instagram'
+import Linkedin from '../../assets/svgs/Linkedin'
 import S from "./style.module.scss"
 
 function Footer() {
     return (
         <div className={S.Footer} >
-            <div className={S.Socials}  >
-                <h1 className={S.Icons}>Fb</h1>
-                <h1 className={S.Icons}>In</h1>
-                <h1 className={S.Icons}>Hub</h1>
-                <h1 className={S.Icons}>SOF</h1>
+            <div className={`${S.Socials} animate__slideInLeft`}  >
+                <a href="#"><Github></Github></a>
+                <a href="#"><Linkedin></Linkedin></a>
+                <a href="#"><Instagram></Instagram></a>
+                <a href="#"><Linkedin></Linkedin></a>
             </div>
-            <div className={S.EmailContainer}>
-                <h1 className={S.Email}><a href={"mailto:amine.beji001@gmail.com"}> amine.beji001@gmail.com </a></h1>
+            <div className={` ${S.EmailContainer} animate__slideInRight`}>
+                <h1 className={S.Email}>
+                    <a href={"mailto:amine.beji001@gmail.com"}>amine.beji001@gmail.com</a>
+                </h1>
             </div>
         </div>
     )

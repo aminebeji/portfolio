@@ -9,6 +9,11 @@
     position: fixed !important;
     width: 100%;
     height: 100px;
+    background:linear-gradient(180deg, $purple-color , rgba(0, 0, 0, 0) );
+    z-index: 1;
+    padding-bottom: 0;
+    padding-top: 0;
+    animation-duration: 1.3s; /* don't forget to set a duration! */
 }
 
 .TitleLogo {

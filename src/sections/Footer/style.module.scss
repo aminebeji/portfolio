@@ -6,46 +6,53 @@
 
 .EmailContainer {
     position: fixed;
-    bottom: 0px;
+    top: 0%;
+    right: 2.5%;
     left: auto;
-    right: 1.5%;
-    width: 40px;
     display: flex;
-   // flex-direction: column;
     align-items: center;
+    animation-duration: 1.3s;
     justify-content: center;
+    height: 100vh;
     cursor: pointer;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
 }
+
 .EmailContainer:hover {
     .Email {
         cursor: pointer;
         color: $Green-color ;
         padding-bottom: 1.5%;
         transform: scale(1);
+
         a {
-            color :  $Green-color;
+            color: $Green-color;
         }
     }
-    
+
 }
+
 .EmailContainer::before {
     content: "";
     display: block;
     width: 1px;
     height: 90px;
-   // margin: 0 auto;
+    // margin: 0 auto;
     background-color: #CCD6F6;
     transition: 0.3s ease-in;
 
 }
+
 .EmailContainer:hover:before {
     content: "";
     display: block;
     width: 1px;
     height: 120px;
-   // margin: 0 auto;
+    // margin: 0 auto;
     background-color: #CCD6F6;
 }
+
 .Icons {
     font-size: 14px;
     margin: 0;
@@ -56,8 +63,9 @@
     //margin: 0 !important;
     font-size: 12px;
     transition: 0.3s ease-in;
+
     a {
-        color : #CCD6F6;
+        color: #CCD6F6;
         text-decoration: none;
     }
 }
@@ -66,10 +74,34 @@
 
 .Socials {
     position: fixed;
-    bottom: 17%;
-    left: 3%;
-    width: 350px;
+    top: 0%;
+    left: 2.5%;
+    right: auto;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 25px;
+    // transform: translateY(50%);
+    animation-duration: 1.3s;
+    justify-content: center;
+    height: 100vh;
+    a {
+        svg {
+            width: 22px;
+            transition: 0.2s ease-in;
+            filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+        }
+
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        transition: 0.2s ease-in;
+    }
+
+    a:hover {
+
+        svg {
+            width: 25px;
+            stroke: $Green-color;
+        }
+    }
 }

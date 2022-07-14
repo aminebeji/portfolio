@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../sections/Footer/template'
+import LoadingScreen from '../sections/LoadingScreen/template'
 import NavBar from '../sections/NavBar/template'
+import S from "./style.module.scss"
 function Layout({ children }) {
+    const [IsLoading, setIsLoading] = useState(true)
+    setTimeout(() => {
+        setIsLoading(false)
+    }, 4000)
     return (
         <div>
-            <NavBar />
-           <div className='container'> {children}</div>
-          <Footer></Footer>
+            {IsLoading ?
+                <LoadingScreen></LoadingScreen> :
+                <>
+                    <NavBar />
+                    <div className={`${S.Content} container`}> {children}</div>
+                    <Footer></Footer>
+                </>
+            }
         </div>
     )
 }
