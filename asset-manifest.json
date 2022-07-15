@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2a260729.css",
+    "main.js": "/portfolio/static/js/main.a06b8c3c.js",
+    "static/js/787.a4671060.chunk.js": "/portfolio/static/js/787.a4671060.chunk.js",
+    "static/media/photoBeji.jpg": "/portfolio/static/media/photoBeji.45a37a89f34cc63a3a8c.jpg",
+    "static/media/Quantum.otf": "/portfolio/static/media/Quantum.2cf9e1c7fad59d223171.otf",
+    "index.html": "/portfolio/index.html",
+    "main.2a260729.css.map": "/portfolio/static/css/main.2a260729.css.map",
+    "main.a06b8c3c.js.map": "/portfolio/static/js/main.a06b8c3c.js.map",
+    "787.a4671060.chunk.js.map": "/portfolio/static/js/787.a4671060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a260729.css",
+    "static/js/main.a06b8c3c.js"
+  ]
+}
