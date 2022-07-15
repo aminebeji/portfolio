@@ -1,39 +1,69 @@
 import React from 'react'
 import S from "./style.module.scss"
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import AnimatedText from 'react-animated-text-content';
 import "./../../style/global.scss"
 function AboutMe() {
+let ReturnClassName= (
+  i
+)=> {
+switch(i) {
+  case 0:
+return `${S.Hello} `  
+break
+case 1 : 
+return `${S.Name}`
+break
+case 2: 
+return `${S.Title}`
+break
+case 3 : 
+return `${S.Paragraph}`
+break
+}
+}
+  let one ="Hello welcome to my portfolio . I'm  "
 
-  let one = (<h6 className={`${S.Hello} `} >Hello welcome to my portfolio . I'm  </h6>)
+
+  let two ="Amine Beji."
 
 
-  let two = (<h1 className={S.Name} > Amine Beji. </h1>)
+  let three = "I make websites alive."
 
 
-  let three = (<h1 className={S.Title}>I make websites alive.</h1>)
+  let four = ` I’m a Full Stack web developer, specializing  in building exceptional web applications.
+  Currently, I’m focused on building accessible , human-centered projects for my portfolio.`
 
 
-  let four = (<p className={S.Paragraph}>
-    I’m a Full Stack web developer, specializing  in building exceptional web applications.
-    Currently, I’m focused on building accessible , human-centered projects for my portfolio.
-  </p>)
-
-
-  let five = (<button className={S.button}> Get In Touch </button>)
+  let five = (<button className={`${S.button} `}> Get In Touch </button>)
 
 
   let ItemsAbout = [one, two, three, four, five]
 
 
   return (
-    <div className={`${S.Container}`} >
-      <TransitionGroup component={"div"}>
-        {ItemsAbout.map((item, i) => {
-          return <CSSTransition key={i} classNames="fadeup" timeout={4000}>
-            <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
-          </CSSTransition>
-        })}
-      </TransitionGroup>
+    <div id="intro" className={`${S.Container}`} >
+      {ItemsAbout.map((item, i) => {
+        return <AnimatedText
+        type="chars"
+        animation={{
+            x: '200px',
+            y: '-20px',
+            scale: 1.5,
+            ease: 'ease-in-out',
+        }}
+        animationType="rifle"
+        interval={i === 3 ? 0.01:0.04}
+        duration={i === 3 ? 0.1: 0.4}
+        tag="p"
+        className={ReturnClassName(i)}
+        includeWhiteSpaces
+        threshold={0.1}
+        rootMargin="20%"
+    >
+          {item}
+        </AnimatedText>
+      })}
+       {five}
     </div>
   )
 }

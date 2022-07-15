@@ -105,3 +105,9 @@
         }
     }
 }
+
+@media screen and (max-width : 852px) {
+    .Footer {
+        display: none;
+    }
+}

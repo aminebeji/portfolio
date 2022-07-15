@@ -7,7 +7,7 @@ function NavBar() {
     { href: "#contact-me", title: "Contact" }]
     return (
         <div className={`${S.NavBar} animate__slideInDown` }  >
-            <h1 className={S.TitleLogo} >A.Beji</h1>
+            <h1 className={S.TitleLogo} ><a href="#intro">A.Beji</a></h1>
             <ul className={S.Menu} >
                 {navItems.map((item, key) => {
                     return <li key={key}><a href={item.href}> <span>  0{key + 1}.</span> {item.title} </a></li>
