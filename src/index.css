@@ -1,13 +1,11 @@
-@font-face {
-  font-family: "Quantum";
-  src: local("Quantum"), url("/public/fonts/Quantum.otf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 * {
-  font-family: "Quantum";
+      font-family: 'Poppins', sans-serif;
   letter-spacing: 1px !important;
   color: #ccd6f6;
 }
@@ -68,4 +66,10 @@ code {
 .fade-exit-active {
   opacity: 0;
   transition: opacity 300ms;
+}
+.HighLighted {
+  color :#4FD3C4;
+}
+abbr {
+  cursor: pointer !important ;
 }

@@ -7,6 +7,7 @@ import {
     Section,
 } from 'react-scroll-section';
 import InfoSection from '../../sections/InfoSections/template';
+import ExprienceSection from '../../sections/Experience/template';
 
 function HomePage() {
     return (
@@ -17,6 +18,9 @@ function HomePage() {
                 </Section>
                 <Section>
                     <InfoSection ></InfoSection>
+                </Section>
+                <Section>
+                   <ExprienceSection></ExprienceSection>
                 </Section>
             </ScrollingProvider>
 

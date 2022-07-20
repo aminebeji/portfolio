@@ -1,7 +1,7 @@
 import S from './style/app.module.scss';
 import useAnimations from './hooks/animations/useAnimations';
 import "./style/variables.scss"
-import "./style/global.scss"
+import "./style/_globals.scss"
 import {
   BrowserRouter,
   Routes,

@@ -1,7 +1,7 @@
 import React from 'react'
 import S from "./style.module.scss"
 import AnimatedText from 'react-animated-text-content';
-import "./../../style/global.scss"
+import "./../../style/_globals.scss"
 function AboutMe() {
 let ReturnClassName= (
   i
