@@ -6,8 +6,17 @@
 Proudly I'm sharing my protfolio .
 
 
+# Intro Section
 
-![preview](/readme_assets/version-2-protfolio.png)
+![preview](/readme_assets/Intro.png)
+
+# About Me Section
+
+![preview](/readme_assets/About-Me.png)
+
+# Experience Section
+
+![preview](/readme_assets/Experience.png)
 
 
 NB : still in progress (dev face)
