@@ -8,6 +8,7 @@ import {
 } from 'react-scroll-section';
 import InfoSection from '../../sections/InfoSections/template';
 import ExprienceSection from '../../sections/Experience/template';
+import Contact from '../../sections/Contact/template';
 
 function HomePage() {
     return (
@@ -20,7 +21,10 @@ function HomePage() {
                     <InfoSection ></InfoSection>
                 </Section>
                 <Section>
-                   <ExprienceSection></ExprienceSection>
+                    <ExprienceSection></ExprienceSection>
+                </Section>
+                <Section>
+                    <Contact></Contact>
                 </Section>
             </ScrollingProvider>
 

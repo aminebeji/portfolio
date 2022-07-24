@@ -2,6 +2,7 @@ import React from 'react'
 import S from "./style.module.scss"
 import AnimatedText from 'react-animated-text-content';
 import "./../../style/_globals.scss"
+import { Email } from '../../config/info';
 function AboutMe() {
 let ReturnClassName= (
   i
@@ -34,7 +35,7 @@ break
   Currently, I’m focused on building accessible , human-centered projects for my portfolio.`
 
 
-  let five = (<button className={`${S.button} `}> Get In Touch </button>)
+  let five = (<a href={`mailto:${Email}`} className={`${S.button} `}> Get In Touch </a>)
 
 
   let ItemsAbout = [one, two, three, four, five]

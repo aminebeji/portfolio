@@ -1,5 +1,4 @@
 @import "./../../style/variables.scss";
-
 .Container {
   min-height: 100vh;
   margin: auto;
@@ -10,42 +9,25 @@
   animation-duration: 1.3s;
   animation-delay: 1.3s;
   padding: 5em 0;
-p {
-  line-height: 1.3 !important;
+  text-align: center;
 
 }
-}
-
-.Hello {
-  font-size: clamp(13px, 5vw, 16px);
-  margin: 0 !important;
+.Number {
   color: $Green-color;
-  span {
-    color: $Green-color !important;
-  }
-  margin-bottom: 1% !important;
 }
-
-.Name {
-  font-size: clamp(40px, 8vw, 80px);
-  margin: 0 !important;
-  line-height: 1.3;
-}
-
 .Title {
-  //color: $dark-green ;
-  opacity: 0.7;
-  margin: 0 !important;
-  font-size: clamp(30px, 6vw, 60px);
-  line-height: 1.3;
+  font-size: 24px;
 }
-
-.Paragraph {
-  width: 50%;
-  margin-top: 1.5%;
-  line-height: 2;
+.CentredLine {
+  margin: auto;
 }
-
+.BigTitle {
+  font-size: 45px; 
+  margin: 0.25em;
+}
+.Description {
+  margin: 2.5em 0;
+}
 .button {
   background-color: transparent;
   color: $Green-color;
@@ -64,16 +46,6 @@ p {
   text-decoration: none ;
   cursor: pointer;
 }
-
-@keyframes Hidden {
-  0% {
-    opacity: 0;
-  }
- 
-  100% {
-    opacity: 1;
-  }
-}
 .button:hover {
   transition: 0.5s ease-in-out;
   background: $Green-color-low;
@@ -84,16 +56,5 @@ p {
 @media screen and (max-width : 792px) {
   .Container {
     width: 90% !important;
-  }
-}
-@media screen and (max-width: 852px) {
-  
-  .Paragraph {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .Container {
-    padding-top: 100px;
   }
 }

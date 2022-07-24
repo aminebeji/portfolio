@@ -106,3 +106,11 @@ hr {
   column-count:  2;
   margin-top: 5%;
 }
+.Number  {
+  color : $Green-color;
+}
+@media screen and (max-width : 792px) {
+  .Container {
+    width: 90% !important;
+  }
+}
