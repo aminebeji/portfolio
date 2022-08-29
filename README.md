@@ -45,15 +45,17 @@ NB : still in progress (dev face)
 - [x] Add animation library
 
 - [x] Add Intro section
+ 
+- [x] Add About Me section
 
-- [ ] Add About Me section
-
-- [ ] Add Experinces section
+- [x] Add Experinces section
   
-- [ ] Add Projects sections
+- [x] Add Projects sections
 
-- [ ] Make the navBar responsive
+- [x] Make the navBar responsive
 
-- [ ] Code Review And clean 
+- [x] Code Review And clean 
 
+- [ ] Add SastecSkills Video presentation
+  
 - [ ] Dockerization
