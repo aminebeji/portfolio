@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import S from "./style.module.scss"
-import CV from "./../../assets/resume/beji_resume.pdf"
+import CV from "./../../assets/resume/english_resume.pdf"
 function NavBar() {
     const navItems = [{ href: "#about-me", title: "About Me" },
     { href: "#experience", title: "Experience" },
-    { href: "#my-project", title: "My Project" },
+    { href: "#my-project", title: "My Projects" },
     { href: "#contact-me", title: "Contact" }]
     const [Open, setOpen] = useState(false)
     const OnClick = () => {

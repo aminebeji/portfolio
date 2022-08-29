@@ -1,0 +1,21 @@
+@import "./../../style/variables.scss";
+.Container {
+  min-height: 100vh;
+  margin: auto;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation-duration: 1.3s;
+  animation-delay: 1.3s;
+  padding: 5em 0;
+}
+hr {
+  width: 15%;
+  height: 4px !important;
+  color: $Green-color-low;
+  opacity: 1 !important;
+}
+.Title {
+  font-size: 24px;
+}
