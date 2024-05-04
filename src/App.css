@@ -1,0 +1,7 @@
+
+.MainContainer{
+  background-image: url("./photos/summonersrift.jpg");
+	scroll-behavior: smooth;
+	background-size: cover;
+	background-attachment: fixed;
+}

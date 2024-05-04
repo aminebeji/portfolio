@@ -1,0 +1,67 @@
+@import "./../../style/variables.scss";
+.Container {
+  min-height: 100vh;
+  margin: auto;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation-duration: 1.3s;
+  animation-delay: 1.3s;
+  padding: 5em 0;
+  text-align: center;
+
+}
+.Number {
+  color: $Green-color;
+}
+.Title {
+  font-size: 24px;
+  
+}
+.CentredLine {
+  margin: auto;
+}
+.BigTitle {
+  font-size: 45px; 
+  margin: 0.25em;
+}
+.Description {
+  margin: 2.5em 0;
+}
+.button {
+  background-color: transparent;
+  color: $Green-color;
+  border-color: transparent;
+  padding: 0.75em 3.75em;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 2.5px solid;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-in;
+  width: fit-content;
+  //animation-duration: 0.3s; /* don't forget to set a duration! */
+  animation: Hidden 5s;
+  opacity: 1    ;
+  text-decoration: none ;
+  cursor: pointer;
+}
+.button:hover {
+  transition: 0.5s ease-in-out;
+  background: $Green-color-low;
+  color: $Green-color;
+  border-color: transparent;
+
+}
+.Footer {
+  text-align: center;
+  margin: 0 !important;
+  font-size: 12px;
+  padding-bottom: 1em;
+}
+@media screen and (max-width : 792px) {
+  .Container {
+    width: 90% !important;
+  }
+}

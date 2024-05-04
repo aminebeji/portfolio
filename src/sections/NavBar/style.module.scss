@@ -1,0 +1,177 @@
+@import "./../../style/variables.scss";
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $padding-container;
+  position: fixed !important;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(180deg, $purple-color, rgba(0, 0, 0, 0));
+  z-index: 1;
+  padding-bottom: 0;
+  padding-top: 0;
+  animation-duration: 1.3s; /* don't forget to set a duration! */
+}
+
+.TitleLogo {
+  color: $Green-color;
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+  a {
+    color: $Green-color;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.Menu {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 2em;
+  list-style: none;
+
+  a {
+    color: $dark-green;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    font-size: 13px;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    span {
+      color: $Green-color;
+    }
+  }
+
+  a:hover {
+    color: $Green-color;
+  }
+}
+
+.MyCV {
+  background-color: transparent;
+  color: $Green-color;
+  border-color: transparent;
+  padding: 0.45em 1.25em;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 2.5px solid;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-in;
+}
+
+.MyCV:hover {
+  transition: 0.5s ease-in-out;
+  background: $Green-color-low;
+}
+.SideBar {
+  display: none !important;
+}
+.NavMenu {
+    display: none !important;
+  }
+@media screen and (max-width: 852px) {
+  .Menu {
+    display: none;
+  }
+  .NavBar {
+    padding: 0 1em;
+  }
+  .NavMenu {
+    display: flex !important;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+  }
+  .NavMenuOpen {
+    display: flex !important;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+    .Line1 {
+        transform: rotate(45deg);
+        width: 25px;
+        position: absolute;
+    }
+    .Line2 {
+        display: none;
+    }
+    .Line3 {
+        transform: rotate(-45deg);
+        width: 25px;
+        position: absolute;
+
+    }
+  }
+  @for $i from 1 through 3 {
+    .Line#{$i} {
+      // width: calc(15px - $i * 2);
+      height: 1.5px;
+      width: calc(35px - (#{$i}px * 2));
+      border-radius: 70px;
+      background-color: $Green-color;
+      transition: 0.7s;
+    }
+  }
+
+  .SideBar {
+    background-color: $purple-color;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: 0.2s ease-in;
+    position: fixed;
+    width: 0 ;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 2em;
+    list-style: none;
+    transition: 0.5s;
+    height: 100vh;
+    justify-content: center;
+   
+     .SideBarMenu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 2em;
+        list-style: none;
+     
+     }
+    a {
+      color: $dark-green;
+      text-decoration: none;
+      transition: 0.3s ease-in;
+      font-size: 13px;
+      width: 100%;
+      height: 100%;
+      display: block;
+
+      span {
+        color: $Green-color;
+      }
+    }
+
+    a:hover {
+      color: $Green-color;
+    }
+  }
+}
