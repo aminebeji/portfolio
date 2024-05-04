@@ -10,8 +10,19 @@
   animation-delay: 1.3s;
   padding: 5em 0;
 }
+.TitleLine {
+  width: 50%;
+  height: 0.5px !important;
+  color: $Green-color-low;
+  opacity: 0.5 !important;
+}
+
 .Title {
   font-size: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 2em;
 }
 .PostTitle {
   font-size: 18px;

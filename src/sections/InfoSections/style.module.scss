@@ -16,8 +16,18 @@ hr {
   color: $Green-color-low;
   opacity: 1 !important;
 }
+.TitleLine {
+  width:50%;
+    height: 0.5px !important;
+    color: $Green-color-low;
+    opacity: 0.5  !important;
+}
 .Title {
   font-size: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 2em;
 }
 .InfoContainer {
   display: grid;

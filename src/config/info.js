@@ -9,21 +9,32 @@ export const Links = {
 
 export const Experience = [
   {
-    company: "Sastec Group",
-    date: "Aout 2021 - Present",
+    company: "Cookie Jar Tech",
+    date: "August 2021 - Present",
     discription: [
-      "I managed to be a full stack Web Developer.",
-      "Project Leader , managing a team to full accomplish a project with high scalable and performant code .",
-      "I make creative things using React.js and Next.Js ,and making them alive using GoLang and Node.js.",
-      "Maintaining project into production with docker and gitlab to finally make it into K8S.",
+      "Full Stack Web Developer proficient in React.js and Next.js for creative projects, with expertise in bringing them to life using GoLang and Node.js.",
+      "Project Leader with a proven track record of managing teams to successfully deliver projects with highly scalable and performant code.",
+      "Experienced in maintaining projects in production environments using Docker and GitLab, with the final goal of deployment on Kubernetes (K8S).",
+    ],
+    link: "https://cookiejartech.lt/",
+    tag: "cookie-jar-tech",
+    post: "Full Stack Developer and Technical Team Leader",
+  },
+  {
+    company: "Sastec Group",
+    date: "August 2021 - August  2022",
+    discription: [
+      "Full Stack Web Developer proficient in React.js and Next.js for creative projects, with expertise in bringing them to life using GoLang and Node.js.",
+      "Project Leader with a proven track record of managing teams to successfully deliver projects with highly scalable and performant code.",
+      "Experienced in maintaining projects in production environments using Docker and GitLab, with the final goal of deployment on Kubernetes (K8S).",
     ],
     link: "https://www.sastec-group.com/",
     tag: "sastec-group",
-    post: "Full Stack Developer",
+    post: "Full Stack Developer and Team Leader",
   },
   {
     company: "SastecSkills",
-    date: "Juin 2022 - Present",
+    date: "Juin 2022 - September 2022",
     discription: [
       "Successfully lunched and finished MERN stack BOOTCAMP with sastecSkills.",
       "Forward my skills to other students and help them creating a realtime project using Methodology Scrum.",
@@ -36,9 +47,8 @@ export const Experience = [
     company: "DOT-IT",
     date: "February 2021 - Juin 2021",
     discription: [
-      "Internship in Full stack web developement for Final education Project.",
-      "I managed to work with node.js and React.js to build a full web application for freelancing Linke Fiver and UpWork.",
-      "I learned Docker and K8s, i managed to work with minikube locally.",
+      "Developed a comprehensive web application using Node.js and React.js, akin to freelancing platforms such as Fiverr and Upwork. Managed the entire project lifecycle, from conception and design to task composition, testing, and release.",
+      "Acquired proficiency in Docker and Kubernetes (K8s), effectively deploying and overseeing applications using Minikube for local development.",
     ],
     link: "http://www.dotit-corp.com/",
     tag: "dot-it",
@@ -49,7 +59,7 @@ export const Experience = [
     date: "Augest 2020 - Augest 2020",
     discription: [
       "Summer Internship in Front-end developement .",
-      "I created some web site for their clients using HTML5 , CSS3 and making them look cool with JavaScript .",
+      "Designed and developed websites for clients using HTML5, CSS3, and JavaScript to enhance visual appeal and functionality.",
     ],
     tag: "digital-solution",
     post: "Internship Front-End Developer",
@@ -59,6 +69,50 @@ export const Experience = [
 export const PROFESIONNAL_PROJECTS = [
   {
     id: 1,
+    title: "ParcelStars/Linnworks Connector",
+    description: `a web application that connect 2 platforms, one for order management and the second that handle the parcel delivery, the system responsible for treating those order and formating them based on settings handled by the user in a frontend interface.`,
+
+    techno: [
+      "Vue.js 3",
+      "Vuex",
+      "Node.js",
+      "NaiveUI",
+      "MongoDB",
+      "Linnworks",
+      "E-Commerce",
+    ],
+
+    assets: ["/projects/player/video_player.png"],
+  },
+  {
+    id: 2,
+    title: "ParcelStars/Linnworks Connector",
+    description: `a web application that connect 2 platforms, one for order management and the second that handle the parcel delivery, the system responsible for treating those order and formating them based on settings handled by the user in a frontend interface.`,
+
+    techno: [
+      "Vue.js 3",
+      "Vuex",
+      "Node.js",
+      "NaiveUI",
+      "MongoDB",
+      "Linnworks",
+      "E-Commerce",
+    ],
+
+    assets: ["/projects/player/video_player.png"],
+  },
+  {
+    id: 3,
+    title: "QR Code Generator",
+    description: `a web application that could play videos and lives using their links (hls , mp4 ,etc ). It has so many feature like adding slides and chapter during the videos , it could play a 360° video.`,
+
+    techno: ["React.js", "chakra-ui", "QR-code"],
+    link: "https://qr-code-generator-aminebeji.vercel.app/",
+    github: "https://github.com/aminebeji/qr_code_generator",
+    assets: ["/projects/player/video_player.png"],
+  },
+  {
+    id: 4,
     title: "Video Player",
     description: `a web application that could play videos and lives using their links (hls , mp4 ,etc ). It has so many feature like adding slides and chapter during the videos , it could play a 360° video.`,
 
@@ -67,44 +121,33 @@ export const PROFESIONNAL_PROJECTS = [
     assets: ["/projects/player/video_player.png"],
   },
   {
-    id: 2,
+    id: 5,
     title: "JustOd",
     description: `I manage to maintain a booking system for my client and fix some bugs and add some cool feature to his application.`,
-    techno: ["React.js", "Redux", "Node.js", "Graphql" , "Mysql"],
+    techno: ["React.js", "Redux", "Node.js", "Graphql", "Mysql"],
     link: "https://justod.com/",
     assets: ["/projects/justod/justod.png"],
   },
   {
-    id: 3,
+    id: 6,
     title: "PinParty",
     description: `A mobile application for party sharing, every user could create a post for his party and receive requests from other user to join his party.`,
 
     techno: ["React Native", "Redux", "Node.js", "MongoDB"],
     link: "",
-    github  :"", 
+    github: "",
     assets: [""],
   },
   {
-    id: 4,
+    id: 7,
     title: "Github Search",
     description: `A web application could search for any github profile using githu APIs.the final result will show some statistics on the user and his last github repository.`,
 
     techno: ["Vue.js", "Vuex", "vue-chartjs", "bootstrap"],
     link: "https://github-search-aminebeji.vercel.app/",
-    github  :"https://github.com/aminebeji/github_search", 
+    github: "https://github.com/aminebeji/github_search",
     assets: [""],
   },
-  {
-    id: 5,
-    title: "Movies Page",
-    description: `Sorting a list of some movies with like and dislike system, filter and search system.`,
-
-    techno: ["Next.js", "Redux", "Cypress", "tailwindui"],
-    link: "https://technical-test-five.vercel.app/",
-    github  :"https://github.com/aminebeji/movies_list", 
-    assets: [""],
-  },
-  
 ];
 
 export const PERSONAL_PROJECTS = [
