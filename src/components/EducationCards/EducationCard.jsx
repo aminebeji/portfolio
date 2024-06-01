@@ -18,6 +18,8 @@ function EducationCard({data}) {
           })}
         </ul>
       </div>
+      <div className={S.date}> {data.date} </div>
+
     </div>
   );
 }
