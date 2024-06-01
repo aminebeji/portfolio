@@ -11,7 +11,7 @@ function Projects() {
       <div id="my-project" className={S.Container}>
         <header>
           <h1 className={S.Title}>
-            <span className={S.Number}>03.</span> My Projects{" "}
+            <span className={S.Number}>04.</span> My Projects{" "}
             <hr className={S.TitleLine}></hr>
           </h1>
         </header>

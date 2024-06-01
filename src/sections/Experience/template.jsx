@@ -12,7 +12,7 @@ function ExprienceSection() {
       <div id="experience" className={`${S.Container}`}>
         <header>
           <h1 className={S.Title}>
-            <span className={S.Number}>02.</span> My Experience{" "}
+            <span className={S.Number}>03.</span> My Experience{" "}
             <hr className={S.TitleLine}></hr>
           </h1>
           <div className="desktop">

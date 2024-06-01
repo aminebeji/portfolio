@@ -59,6 +59,7 @@ function InfoSection() {
                 <li>GoLang</li>
                 <li>C#</li>
                 <li>.NET</li>
+                <li>Looker Studio</li>
               </ul>
             </p>
           </div>

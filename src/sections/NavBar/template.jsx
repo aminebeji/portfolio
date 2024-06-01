@@ -5,6 +5,7 @@ function NavBar() {
   const navItems = [
     { href: "#about-me", title: "About Me" },
     { href: "#experience", title: "Experience" },
+    { href: "#education", title: "Education" },
     { href: "#my-project", title: "My Projects" },
     { href: "#contact-me", title: "Contact" },
   ];

@@ -11,7 +11,7 @@ function Contact() {
       <div id="contact-me" className={S.Container}>
         <header>
           <h1 className={S.Title}>
-            <span className={S.Number}>04.</span> Now what ?
+            <span className={S.Number}>05.</span> Now what ?
           </h1>
           <hr className={S.CentredLine}></hr>
           <h1 className={S.BigTitle}> Get In Touch</h1>

@@ -1,0 +1,33 @@
+@import "./../../style/variables.scss";
+
+
+.EduContainer {
+  margin-bottom: 3em;
+}
+.Title {
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 2em;
+  color : #00ffe2;
+}
+.School {
+  font-size: 12px;
+  color : lightgray;
+  opacity: 00.8;
+}
+
+
+
+.Description_container {
+  padding: 1em;
+  background-color: #014ca6;
+  border-radius: 6px;
+  width: 75%;
+  font-size: 14px;
+}
+
+
+
+.DescriptionList {
+  margin: 0 !important;
+}

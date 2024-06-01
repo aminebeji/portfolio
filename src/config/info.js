@@ -39,7 +39,7 @@ export const Experience = [
       "Successfully lunched and finished MERN stack BOOTCAMP with sastecSkills.",
       "Forward my skills to other students and help them creating a realtime project using Methodology Scrum.",
     ],
-    link: "https://sastecskills.sastec.dev/",
+    link: "https://www.linkedin.com/company/sastecskills/",
     tag: "sastecskills",
     post: "JavaScript Instructor",
   },
@@ -69,8 +69,36 @@ export const Experience = [
 export const PROFESIONNAL_PROJECTS = [
   {
     id: 1,
-    title: "ParcelStars/Linnworks Connector",
-    description: `a web application that connect 2 platforms, one for order management and the second that handle the parcel delivery, the system responsible for treating those order and formating them based on settings handled by the user in a frontend interface.`,
+    title: "DATA STATISTICS / LOOKER STUDIO REPORTS",
+    description: `Developed a system to gather and refine information from various platforms used by our
+    customers.
+    Generated a Looker Studio dashboard to retrieve refined data from the database and
+graphically display it for specific customer purposes.
+`,
+
+    techno: ["Node.js", "Looker Studio", "PostgresSQL", "Google Extensions"],
+
+    assets: ["/projects/player/video_player.png"],
+  },
+  {
+    id: 1,
+    title: "PROJECT TESTING AND MAINTENANCE",
+    description: `Implemented new features based on user feedback and project requirements to improve
+    the overall system.
+    Developed unit tests for the .NET and C# project to ensure code reliability and
+performance.
+Automated API testing using Postman to streamline the testing process and improve
+efficiency`,
+
+    techno: [".NET", "C#", "Q&A", "PostMan", "Automation"],
+
+    assets: ["/projects/player/video_player.png"],
+  },
+  {
+    id: 1,
+    title: "Order automation system",
+    description: `Developed a system that handles order transitions from the order management system to the delivery system.
+    Developed a dashboard to display the history of order transitions and manage settings to organize orders.`,
 
     techno: [
       "Vue.js 3",
@@ -86,14 +114,14 @@ export const PROFESIONNAL_PROJECTS = [
   },
   {
     id: 2,
-    title: "ParcelStars/Linnworks Connector",
-    description: `a web application that connect 2 platforms, one for order management and the second that handle the parcel delivery, the system responsible for treating those order and formating them based on settings handled by the user in a frontend interface.`,
+    title: "Products Management & XML file generator",
+    description: `Created cron jobs to synchronize product quantities and availability from an external system`,
 
     techno: [
-      "Vue.js 3",
+      "Vue.js 2",
       "Vuex",
       "Node.js",
-      "NaiveUI",
+      "Veutify",
       "MongoDB",
       "Linnworks",
       "E-Commerce",
@@ -104,7 +132,7 @@ export const PROFESIONNAL_PROJECTS = [
   {
     id: 3,
     title: "QR Code Generator",
-    description: `a web application that could play videos and lives using their links (hls , mp4 ,etc ). It has so many feature like adding slides and chapter during the videos , it could play a 360° video.`,
+    description: `A web application for generating QR codes. Users will be able to create QR codes for various types of information such as V-card, links, Wi-Fi network information, and phone calls.`,
 
     techno: ["React.js", "chakra-ui", "QR-code"],
     link: "https://qr-code-generator-aminebeji.vercel.app/",
@@ -158,5 +186,45 @@ export const PERSONAL_PROJECTS = [
     techno: [],
     link: "",
     github: "",
+  },
+];
+
+export const EDUCATIONS = [
+  {
+    id: 1,
+    school: "business English 4A * CEFR B1+",
+    education: "THE AMIDEAST/TUNISIA ENGLISH LANGUAGE PROGRAM, SOUSSE ,TUNISIA",
+    descriptions: [
+      "Mastered business English and honed professional communication",
+      "Shared expertise with peers from diverse fields, fostering collaborative learning",
+      "Excelled in presentations and enhanced my communication abilities",
+      "Achieved a commendable grade of 94%",
+    ],
+    direction: "ltr",
+    date: "Mar 2023 - May 2023",
+  },
+  {
+    id: 2,
+    school: "Bachelor’s degree in multimedia and web",
+    education:
+      "HIGHER INSTITUTE OF COMPUTER SCIENCE AND COMMUNICATION TECHNOLOGY, SOUSSE, TUNISIA",
+    descriptions: [
+      "Demonstrated academic excellence in Multimedia and Web Development, English, and Mathematics",
+      "Cultivated effective communication skills and business acumen, discovering my life's ambition",
+      "Graduated with honors, acknowledging my dedication and achievements",
+    ],
+    direction: "rtl",
+    date: "Sept 2018 - July 2021",
+  },
+  {
+    id: 3,
+    school: "baccalaureate / High School end of study",
+    education: "HIGH SCHOOL ATEF CHEIB, HAMMAMET, TUNISIA",
+    descriptions: [
+      "Bachelor's degree in Computer Science",
+      "Graduated with honors, achieving a GPA of 12.32 out of 20",
+    ],
+    direction: "ltr",
+    date: "Sept 2017 -July 2018",
   },
 ];

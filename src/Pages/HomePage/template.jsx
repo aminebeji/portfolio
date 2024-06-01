@@ -10,6 +10,7 @@ import InfoSection from '../../sections/InfoSections/template';
 import ExprienceSection from '../../sections/Experience/template';
 import Contact from '../../sections/Contact/template';
 import Projects from '../../sections/Projects/template';
+import Educations from '../../sections/Educations/template';
 
 function HomePage() {
     return (
@@ -20,6 +21,9 @@ function HomePage() {
                 </Section>
                 <Section>
                     <InfoSection ></InfoSection>
+                </Section>
+                <Section>
+                    <Educations ></Educations>
                 </Section>
                 <Section>
                     <ExprienceSection></ExprienceSection>
