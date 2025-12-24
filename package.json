@@ -12,7 +12,6 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "animejs": "^3.2.1",
-    "caniuse-lite": "^1.0.30001761",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.26",
     "i18next": "^25.7.3",
