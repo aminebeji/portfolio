@@ -3,7 +3,6 @@ import Layout from '../../Layout/Layout'
 import AboutMe from '../../sections/AboutMeSection/template'
 import {
     ScrollingProvider,
-    useScrollSection,
     Section,
 } from 'react-scroll-section';
 import InfoSection from '../../sections/InfoSections/template';

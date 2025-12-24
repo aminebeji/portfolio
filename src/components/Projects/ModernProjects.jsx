@@ -2,10 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { PROFESIONNAL_PROJECTS } from '../../config/info';
-import clsx from 'clsx';
 
 function ProjectCard({ project, index }) {
-  const { t } = useTranslation();
 
   return (
     <motion.div

@@ -3,7 +3,6 @@ import { Menu, Transition, Disclosure } from '@headlessui/react';
 import { Fragment } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Links } from '../../config/info';
 import clsx from 'clsx';
 
 const languages = [

@@ -6,7 +6,7 @@ import { Experience } from '../../config/info';
 import clsx from 'clsx';
 
 function ModernExperience() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   // Job keys for translation

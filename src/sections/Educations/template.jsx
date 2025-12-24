@@ -1,7 +1,7 @@
 import React from "react";
 import S from "./style.module.scss";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import { EDUCATIONS, Experience } from "./../../config/info";
+import { EDUCATIONS } from "./../../config/info";
 import "./../../style/_globals.scss";
 import EducationCard from "../../components/EducationCards/EducationCard";
 function ExprienceSection() {
