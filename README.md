@@ -1,61 +1,174 @@
-![My Portfolio](/readme_assets/My_Portfolio_!!!.png)
-#
-# My portfolio ![my followers](https://img.shields.io/github/followers/aminebeji?style=social) ![commits](https://img.shields.io/github/commit-activity/w/aminebeji/portfolio) ![last commit](https://img.shields.io/github/last-commit/aminebeji/portfolio?style=flat-square&logo=appveyor)
+# Amine Beji - Portfolio
 
+![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)
+![React](https://img.shields.io/badge/React-18.1.0-61DAFB.svg?logo=react)
+![Three.js](https://img.shields.io/badge/Three.js-r182-black.svg?logo=three.js)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![GitHub followers](https://img.shields.io/github/followers/aminebeji?style=social)
 
-Proudly I'm sharing my protfolio .
+A modern, responsive portfolio website featuring 3D animations, internationalization support, and a beautiful dark theme design.
 
+[View Live Demo](https://aminebeji.github.io/portfolio)
 
-# Intro Section
+## 🚀 Features
 
-![preview](/readme_assets/Intro.png)
+- **3D Hero Section** with Three.js animated background and particle effects
+- **Multi-language Support** (English, French, Arabic, Italian)
+- **Responsive Design** optimized for all devices
+- **Modern UI Components** using Headless UI
+- **Smooth Animations** with Framer Motion
+- **Dark Theme** with custom color grading
+- **Performance Optimized** with code splitting and lazy loading
+- **Accessibility Focused** following WCAG guidelines
 
-# About Me Section
+## 🛠️ Technologies
 
-![preview](/readme_assets/About-Me.png)
+### Frontend Framework
+- **React 18** - Modern React with hooks and Suspense
+- **Tailwind CSS** - Utility-first CSS framework
+- **SCSS Modules** - Component-scoped styling
 
-# Experience Section
+### 3D & Animations
+- **Three.js** - 3D graphics and animations
+- **@react-three/fiber** - React renderer for Three.js
+- **@react-three/drei** - Useful helpers for react-three-fiber
+- **Framer Motion** - Production-ready animation library
 
-![preview](/readme_assets/Experience.png)
+### UI Components
+- **Headless UI** - Unstyled, fully accessible UI components
+- **Tailwind Forms** - Form styling plugin
+- **Custom Components** - Reusable, modern components
 
+### Internationalization
+- **i18next** - Full-featured i18n framework
+- **react-i18next** - React integration for i18next
+- **Browser Language Detector** - Automatic language detection
 
-NB : still in progress (dev face)
+## 📦 Installation
 
-[demo]( https://aminebeji.github.io/portfolio)
+```bash
+# Clone the repository
+git clone https://github.com/aminebeji/portfolio.git
 
-#
-# Technology Use 
+# Navigate to project directory
+cd portfolio
 
-## Javascript
-[![JavaScript](/readme_assets/javascript.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+# Install dependencies
+npm install --legacy-peer-deps
 
+# Start development server
+npm start
+```
 
-## React.js
-[![react_js](/readme_assets/react_logo.png)](https://reactjs.org/)
+## 🚦 Available Scripts
 
+```bash
+# Development server
+npm start
 
+# Production build
+npm run build
 
-## Scss
-[![scss](/readme_assets/scss_logo.png)](https://sass-lang.com/)
+# Run tests
+npm test
 
-# Tasks
+# Deploy to GitHub Pages
+npm run deploy
+```
 
-- [x] add the navBar
+## 🌍 Supported Languages
 
-- [x] Add animation library
+- 🇬🇧 English
+- 🇫🇷 Français
+- 🇹🇳 العربية (Arabic)
+- 🇮🇹 Italiano
 
-- [x] Add Intro section
- 
-- [x] Add About Me section
+## 🎨 Design System
 
-- [x] Add Experinces section
-  
-- [x] Add Projects sections
+### Color Palette
+- **Primary**: Green shades (#22c55e)
+- **Secondary**: Purple shades (#d946ef)
+- **Dark**: Gray scale (#030712 to #f9fafb)
 
-- [x] Make the navBar responsive
+### Typography
+- **Headers**: Poppins
+- **Body**: Inter
+- **Code**: SF Mono, Monaco
 
-- [x] Code Review And clean 
+## 📱 Responsive Breakpoints
 
-- [ ] Add SastecSkills Video presentation
-  
-- [ ] Dockerization
+- **Mobile**: < 640px
+- **Tablet**: 640px - 1024px
+- **Desktop**: > 1024px
+
+## 🔧 Configuration
+
+### Customization
+- Update personal information in `src/config/info.js`
+- Modify translations in `src/i18n/locales/`
+- Adjust theme colors in `tailwind.config.js`
+
+## 📂 Project Structure
+
+```
+portfolio/
+├── public/
+│   ├── beji_resume.pdf
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── HeroSection/
+│   │   ├── NavBar/
+│   │   ├── Experience/
+│   │   ├── Projects/
+│   │   ├── Education/
+│   │   ├── About/
+│   │   ├── Contact/
+│   │   └── Footer/
+│   ├── i18n/
+│   │   ├── i18n.js
+│   │   └── locales/
+│   ├── config/
+│   │   └── info.js
+│   ├── Pages/
+│   └── App.js
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
+```
+
+## ✅ Recent Updates
+
+- [x] Added Three.js 3D hero section with particle effects
+- [x] Implemented i18n with 4 languages
+- [x] Migrated to Headless UI components
+- [x] Enhanced mobile responsive design
+- [x] Updated work experience from latest resume
+- [x] Added Tailwind CSS design system
+- [x] Improved color grading and dark theme
+- [x] Refactored code following best practices
+
+## 🚀 Deployment
+
+The portfolio is configured for GitHub Pages deployment:
+
+```bash
+# Build and deploy
+npm run deploy
+```
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👤 Contact
+
+**Amine Beji**
+- Email: amine.beji001@gmail.com
+- LinkedIn: [Amine Beji](https://www.linkedin.com/in/amine-beji-0542501b5/)
+- GitHub: [@aminebeji](https://github.com/aminebeji)
+- Instagram: [@amine.beji001](https://www.instagram.com/amine.beji001/)
+
+---
+
+Built with ❤️ using React, Three.js, and Tailwind CSS

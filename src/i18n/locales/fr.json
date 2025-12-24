@@ -1,0 +1,210 @@
+{
+  "navbar": {
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact",
+    "resume": "CV",
+    "education": "Éducation"
+  },
+  "hero": {
+    "greeting": "Bienvenue sur mon portfolio. Je suis",
+    "name": "Amine Beji.",
+    "title": "Je donne vie aux sites web.",
+    "description": "Je suis un développeur Full Stack passionné par la création d'applications web exceptionnelles avec un accent sur l'accessibilité et la conception centrée sur l'utilisateur.",
+    "cta": "Me Contacter"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "intro": "Bonjour! Je suis Amine, un développeur Full Stack passionné basé en Tunisie.",
+    "description1": "J'aime créer des choses qui vivent sur Internet, que ce soit des sites web, des applications ou quoi que ce soit entre les deux. Mon voyage dans la programmation a commencé en 2012 quand j'ai créé mon premier compte Facebook et j'étais émerveillé de voir comment les gens pouvaient construire quelque chose comme ça. Cette curiosité m'a conduit à découvrir le monde de la programmation et du développement, et je suis passionné depuis!",
+    "description2": "Aujourd'hui, j'ai eu le privilège de travailler dans une entreprise technologique, une start-up et d'enseigner dans un bootcamp. Mon objectif principal ces jours-ci est de créer des produits accessibles et inclusifs et des expériences numériques chez Cookie Jar Tech pour une variété de clients.",
+    "description3": "Voici quelques technologies avec lesquelles j'ai travaillé récemment:",
+    "skills": {
+      "javascript": "JavaScript (ES6+)",
+      "typescript": "TypeScript",
+      "react": "React",
+      "nodejs": "Node.js",
+      "golang": "GoLang",
+      "nextjs": "Next.js",
+      "docker": "Docker",
+      "kubernetes": "Kubernetes"
+    }
+  },
+  "experience": {
+    "title": "Où J'ai Travaillé",
+    "technologiesUsed": "Technologies utilisées:",
+    "jobs": {
+      "prefe": {
+        "company": "Prefe",
+        "position": "Développeur Frontend",
+        "date": "Octobre 2024 - Présent",
+        "location": "À distance - Italie",
+        "description": [
+          "Développement et maintenance d'applications web utilisant des frameworks JavaScript modernes",
+          "Implémentation d'interfaces utilisateur réactives et accessibles",
+          "Collaboration avec des équipes pluridisciplinaires pour fournir des solutions de haute qualité",
+          "Optimisation des performances des applications et de l'expérience utilisateur"
+        ]
+      },
+      "cookiejar": {
+        "company": "Cookie Jar Tech",
+        "position": "Développeur Full Stack et Leader Technique",
+        "date": "Août 2021 - Octobre 2024",
+        "location": "À distance - Lituanie",
+        "description": [
+          "Diriger le développement d'applications web utilisant React.js, Next.js, GoLang et Node.js",
+          "Gérer et encadrer des équipes de développement pour fournir des solutions évolutives et performantes",
+          "Implémenter des pipelines CI/CD utilisant Docker, GitLab et Kubernetes",
+          "Architecturer des microservices et des systèmes distribués pour des applications à fort trafic",
+          "Collaborer avec les parties prenantes pour définir les exigences techniques et les feuilles de route du projet"
+        ]
+      },
+      "sastec": {
+        "company": "Sastec Group",
+        "position": "Développeur Full Stack et Chef d'Équipe",
+        "date": "Août 2021 - Août 2022",
+        "location": "Sur site - Tunisie",
+        "description": [
+          "Développé des applications full-stack utilisant la pile MERN et les frameworks JavaScript modernes",
+          "Dirigé une équipe de 5 développeurs dans un environnement agile utilisant la méthodologie Scrum",
+          "Conçu et implémenté des API RESTful et des services GraphQL",
+          "Optimisé les performances des applications et réduit les temps de chargement de 40%",
+          "Maintenu des environnements de production utilisant Docker et Kubernetes"
+        ]
+      },
+      "sastecskills": {
+        "company": "SastecSkills",
+        "position": "Instructeur JavaScript",
+        "date": "Juin 2022 - Septembre 2022",
+        "location": "Sur site - Tunisie",
+        "description": [
+          "Lancé et complété avec succès un programme de bootcamp MERN stack",
+          "Enseigné à plus de 30 étudiants les technologies et meilleures pratiques du développement web moderne",
+          "Développé un curriculum complet couvrant React, Node.js, Express et MongoDB",
+          "Encadré des étudiants à travers des projets réels utilisant la méthodologie Agile/Scrum",
+          "Atteint 95% de satisfaction étudiante et 85% de taux de placement professionnel"
+        ]
+      },
+      "dotit": {
+        "company": "DOT-IT",
+        "position": "Développeur Full Stack (Stage)",
+        "date": "Février 2021 - Juin 2021",
+        "location": "Sur site - Tunisie",
+        "description": [
+          "Développé une plateforme de freelancing complète similaire à Fiverr/Upwork",
+          "Géré l'ensemble du cycle de vie du projet de la conception au déploiement",
+          "Implémenté des fonctionnalités en temps réel utilisant Socket.io pour la messagerie instantanée",
+          "Acquis une maîtrise de Docker et Kubernetes pour le déploiement d'applications",
+          "Créé des designs UI/UX réactifs utilisant des frameworks CSS modernes"
+        ]
+      },
+      "digitalsolution": {
+        "company": "Digital Solution",
+        "position": "Développeur Front-End (Stage)",
+        "date": "Août 2020",
+        "location": "Sur site - Tunisie",
+        "description": [
+          "Conçu et développé des sites web pour les clients utilisant HTML5, CSS3 et JavaScript",
+          "Implémenté des designs réactifs pour les plateformes mobiles et de bureau",
+          "Collaboré avec des designers pour traduire les maquettes en pages web fonctionnelles",
+          "Optimisé les performances du site web et la compatibilité entre navigateurs"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Ce Que J'ai Construit",
+    "featured": "Projet Vedette",
+    "viewProject": "Voir le Projet",
+    "viewCode": "Voir le Code",
+    "professional": "Projets Professionnels",
+    "personal": "Projets Personnels",
+    "items": {
+      "dataStatistics": {
+        "title": "Statistiques de Données / Rapports Looker Studio",
+        "description": "Développé un système pour collecter et affiner les informations de diverses plateformes. Généré des tableaux de bord Looker Studio pour récupérer les données affinées de la base de données et les afficher graphiquement."
+      },
+      "projectTesting": {
+        "title": "Tests et Maintenance de Projet",
+        "description": "Implémenté de nouvelles fonctionnalités basées sur les retours des utilisateurs. Développé des tests unitaires pour les projets .NET et C#. Automatisé les tests API utilisant Postman."
+      },
+      "orderAutomation": {
+        "title": "Système d'Automatisation des Commandes",
+        "description": "Développé un système qui gère les transitions de commandes du système de gestion des commandes au système de livraison. Créé un tableau de bord pour afficher l'historique des commandes."
+      },
+      "productsManagement": {
+        "title": "Gestion des Produits et Générateur de Fichiers XML",
+        "description": "Créé des tâches cron pour synchroniser les quantités et la disponibilité des produits depuis des systèmes externes. Automatisé la génération XML pour les flux de produits."
+      },
+      "qrCodeGenerator": {
+        "title": "Générateur de Code QR",
+        "description": "Application web pour générer des codes QR. Les utilisateurs peuvent créer des codes QR pour différents types d'informations comme V-card, liens, informations Wi-Fi et appels téléphoniques."
+      },
+      "videoPlayer": {
+        "title": "Lecteur Vidéo Avancé",
+        "description": "Application web qui lit des vidéos et des flux en direct utilisant divers formats (HLS, MP4, etc). Comprend des fonctionnalités comme les diapositives, chapitres et support vidéo 360°."
+      },
+      "justod": {
+        "title": "JustOd - Système de Réservation",
+        "description": "Maintenu et amélioré un système de réservation complet. Corrigé des bugs critiques et implémenté de nouvelles fonctionnalités pour améliorer l'expérience utilisateur."
+      },
+      "pinparty": {
+        "title": "PinParty",
+        "description": "Application mobile pour le partage de fêtes. Les utilisateurs peuvent créer des publications de fête et recevoir des demandes d'autres pour rejoindre leurs événements."
+      },
+      "githubSearch": {
+        "title": "Recherche GitHub",
+        "description": "Application web qui recherche des profils GitHub utilisant les API GitHub. Affiche les statistiques utilisateur et l'activité récente du dépôt avec des graphiques interactifs."
+      }
+    }
+  },
+  "education": {
+    "title": "Éducation",
+    "items": {
+      "english": {
+        "degree": "Anglais des Affaires 4A * CECR B1+",
+        "school": "Le Programme de Langue Anglaise Amideast/Tunisie",
+        "location": "Sousse, Tunisie",
+        "date": "Mars 2023 - Mai 2023",
+        "description": [
+          "Maîtrisé l'anglais des affaires et la communication professionnelle",
+          "Collaboré avec des pairs de divers milieux professionnels",
+          "Excellé dans les présentations et amélioré les capacités de communication",
+          "Obtenu une note de 94%"
+        ]
+      },
+      "bachelor": {
+        "degree": "Licence en Multimédia et Web",
+        "school": "Institut Supérieur d'Informatique et des Technologies de Communication",
+        "location": "Sousse, Tunisie",
+        "date": "Septembre 2018 - Juillet 2021",
+        "description": [
+          "Démontré l'excellence en développement multimédia et web",
+          "Cultivé des compétences de communication efficaces et un sens des affaires",
+          "Diplômé avec mention"
+        ]
+      },
+      "highschool": {
+        "degree": "Baccalauréat en Informatique",
+        "school": "Lycée Atef Cheib",
+        "location": "Hammamet, Tunisie",
+        "date": "Septembre 2017 - Juillet 2018",
+        "description": [
+          "Spécialisé en Informatique",
+          "Diplômé avec mention, moyenne: 12,32/20"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "subtitle": "Quelle Est La Suite?",
+    "description": "Je suis actuellement à la recherche de nouvelles opportunités. Que vous ayez une question ou que vous souhaitiez simplement dire bonjour, ma boîte de réception est toujours ouverte. Je ferai de mon mieux pour vous répondre!",
+    "button": "Dire Bonjour"
+  },
+  "footer": {
+    "builtBy": "Conçu et Construit par Amine Beji",
+    "rights": "Tous droits réservés"
+  }
+}

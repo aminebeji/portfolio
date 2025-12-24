@@ -2,67 +2,102 @@ export const Email = "amine.beji001@gmail.com";
 export const Links = {
   github: "https://github.com/aminebeji/portfolio",
   linkedIn: "https://www.linkedin.com/in/amine-beji-0542501b5/",
-  instagram: "https://www.instagram.com/amine.beji001/",
-  facebook: "",
-  stackoverFlow: "",
+  instagram: "https://www.instagram.com/amine__beji__/"
 };
 
 export const Experience = [
   {
-    company: "Cookie Jar Tech",
-    date: "August 2021 - Present",
+    company: "Prefe",
+    date: "October 2024 - Present",
+    location: "Remote - Italy",
     discription: [
-      "Full Stack Web Developer proficient in React.js and Next.js for creative projects, with expertise in bringing them to life using GoLang and Node.js.",
-      "Project Leader with a proven track record of managing teams to successfully deliver projects with highly scalable and performant code.",
-      "Experienced in maintaining projects in production environments using Docker and GitLab, with the final goal of deployment on Kubernetes (K8S).",
+      "Developing and maintaining web applications using modern JavaScript frameworks",
+      "Implementing responsive and accessible user interfaces",
+      "Collaborating with cross-functional teams to deliver high-quality solutions",
+      "Optimizing application performance and user experience"
     ],
+    technologies: ["React.js", "Ant Design", "Redux toolkit", "Git" , "leaflet maps" , "E-Charts"],
+    link: "https://prefe.com/",
+    tag: "prefe",
+    post: "Frontend Developer",
+  },
+  {
+    company: "Cookie Jar Tech",
+    date: "August 2021 - October 2024",
+    location: "Remote - Lithuania",
+    discription: [
+      "Lead development of web applications using React.js, Next.js, GoLang, and Node.js for enterprise clients",
+      "Manage and mentor development teams of 5+ engineers to deliver scalable, performant solutions",
+      "Implement CI/CD pipelines using Docker, GitLab, and Kubernetes for automated deployments",
+      "Architect microservices and distributed systems for high-traffic applications handling 100k+ daily users",
+      "Collaborate with stakeholders to define technical requirements and project roadmaps"
+    ],
+    technologies: ["React.js", "Next.js", "Vue.js", "Node.js", "Docker", "Kubernetes", "Git", "PostgreSQL", "MongoDB", ".NET"],
     link: "https://cookiejartech.lt/",
     tag: "cookie-jar-tech",
-    post: "Full Stack Developer and Technical Team Leader",
+    post: "Full Stack Developer & Technical Team Leader",
   },
   {
     company: "Sastec Group",
-    date: "August 2021 - August  2022",
+    date: "August 2021 - August 2022",
+    location: "On-site - Tunisia",
     discription: [
-      "Full Stack Web Developer proficient in React.js and Next.js for creative projects, with expertise in bringing them to life using GoLang and Node.js.",
-      "Project Leader with a proven track record of managing teams to successfully deliver projects with highly scalable and performant code.",
-      "Experienced in maintaining projects in production environments using Docker and GitLab, with the final goal of deployment on Kubernetes (K8S).",
+      "Developed full-stack applications using MERN stack and modern JavaScript frameworks",
+      "Led a team of 5 developers in agile environment using Scrum methodology",
+      "Designed and implemented RESTful APIs and GraphQL services for mobile and web applications",
+      "Optimized application performance and reduced load times by 40% through code splitting and lazy loading",
+      "Maintained production environments using Docker and Kubernetes with 99.9% uptime"
     ],
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "GraphQL", "Docker", "Kubernetes", "GoLang", "Redux"],
     link: "https://www.sastec-group.com/",
     tag: "sastec-group",
-    post: "Full Stack Developer and Team Leader",
+    post: "Full Stack Developer & Team Leader",
   },
   {
     company: "SastecSkills",
-    date: "Juin 2022 - September 2022",
+    date: "June 2022 - September 2022",
+    location: "On-site - Tunisia",
     discription: [
-      "Successfully lunched and finished MERN stack BOOTCAMP with sastecSkills.",
-      "Forward my skills to other students and help them creating a realtime project using Methodology Scrum.",
+      "Successfully launched and completed MERN stack bootcamp program with 30+ students",
+      "Taught modern web development technologies and best practices including React, Node.js, Express, and MongoDB",
+      "Developed comprehensive curriculum covering full-stack development from basics to advanced concepts",
+      "Mentored students through real-world projects using Agile/Scrum methodology",
+      "Achieved 95% student satisfaction rating and 85% job placement rate within 3 months of graduation"
     ],
+    technologies: ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB", "Git"],
     link: "https://www.linkedin.com/company/sastecskills/",
     tag: "sastecskills",
     post: "JavaScript Instructor",
   },
   {
     company: "DOT-IT",
-    date: "February 2021 - Juin 2021",
+    date: "February 2021 - June 2021",
+    location: "On-site - Tunisia",
     discription: [
-      "Developed a comprehensive web application using Node.js and React.js, akin to freelancing platforms such as Fiverr and Upwork. Managed the entire project lifecycle, from conception and design to task composition, testing, and release.",
-      "Acquired proficiency in Docker and Kubernetes (K8s), effectively deploying and overseeing applications using Minikube for local development.",
+      "Developed a comprehensive freelancing platform similar to Fiverr/Upwork using MERN stack",
+      "Managed entire project lifecycle from conception, design, development to deployment",
+      "Implemented real-time features using Socket.io for instant messaging and notifications",
+      "Gained proficiency in Docker and Kubernetes for application containerization and orchestration",
+      "Created responsive UI/UX designs using modern CSS frameworks and best practices"
     ],
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "Docker", "Kubernetes"],
     link: "http://www.dotit-corp.com/",
     tag: "dot-it",
-    post: "Internship Full Stack Developer",
+    post: "Full Stack Developer (Internship)",
   },
   {
     company: "Digital Solution",
-    date: "Augest 2020 - Augest 2020",
+    date: "August 2020",
+    location: "On-site - Tunisia",
     discription: [
-      "Summer Internship in Front-end developement .",
-      "Designed and developed websites for clients using HTML5, CSS3, and JavaScript to enhance visual appeal and functionality.",
+      "Designed and developed responsive websites for clients using HTML5, CSS3, and JavaScript",
+      "Implemented pixel-perfect designs for mobile and desktop platforms",
+      "Collaborated with designers to translate mockups into functional web pages",
+      "Optimized website performance and ensured cross-browser compatibility"
     ],
+    technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery", "Responsive Design"],
     tag: "digital-solution",
-    post: "Internship Front-End Developer",
+    post: "Front-End Developer (Internship)",
   },
 ];
 

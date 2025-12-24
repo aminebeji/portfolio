@@ -1,0 +1,210 @@
+{
+  "navbar": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume",
+    "education": "Education"
+  },
+  "hero": {
+    "greeting": "Welcome to my portfolio. I'm",
+    "name": "Amine Beji.",
+    "title": "I make websites alive.",
+    "description": "I'm a Full Stack web developer passionate about crafting exceptional web applications with a focus on accessibility and user-centered design.",
+    "cta": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Hello! I'm Amine, a passionate Full Stack Developer based in Tunisia.",
+    "description1": "I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My journey into programming started back in 2012 when I created my first Facebook account and was amazed by how people could build something like that. This curiosity led me to discover the world of programming and development, and I've been hooked ever since!",
+    "description2": "Fast-forward to today, and I've had the privilege of working at a tech company, a start-up, and teaching at a bootcamp. My main focus these days is building accessible, inclusive products and digital experiences at Cookie Jar Tech for a variety of clients.",
+    "description3": "Here are a few technologies I've been working with recently:",
+    "skills": {
+      "javascript": "JavaScript (ES6+)",
+      "typescript": "TypeScript",
+      "react": "React",
+      "nodejs": "Node.js",
+      "golang": "GoLang",
+      "nextjs": "Next.js",
+      "docker": "Docker",
+      "kubernetes": "Kubernetes"
+    }
+  },
+  "experience": {
+    "title": "Where I've Worked",
+    "technologiesUsed": "Technologies Used:",
+    "jobs": {
+      "prefe": {
+        "company": "Prefe",
+        "position": "Frontend Developer",
+        "date": "October 2024 - Present",
+        "location": "Remote - Italy",
+        "description": [
+          "Developing and maintaining web applications using modern JavaScript frameworks",
+          "Implementing responsive and accessible user interfaces",
+          "Collaborating with cross-functional teams to deliver high-quality solutions",
+          "Optimizing application performance and user experience"
+        ]
+      },
+      "cookiejar": {
+        "company": "Cookie Jar Tech",
+        "position": "Full Stack Developer & Technical Team Leader",
+        "date": "August 2021 - October 2024",
+        "location": "Remote - Lithuania",
+        "description": [
+          "Lead development of web applications using React.js, Next.js, GoLang, and Node.js",
+          "Manage and mentor development teams to deliver scalable, performant solutions",
+          "Implement CI/CD pipelines using Docker, GitLab, and Kubernetes",
+          "Architect microservices and distributed systems for high-traffic applications",
+          "Collaborate with stakeholders to define technical requirements and project roadmaps"
+        ]
+      },
+      "sastec": {
+        "company": "Sastec Group",
+        "position": "Full Stack Developer & Team Leader",
+        "date": "August 2021 - August 2022",
+        "location": "On-site - Tunisia",
+        "description": [
+          "Developed full-stack applications using MERN stack and modern JavaScript frameworks",
+          "Led a team of 5 developers in agile environment using Scrum methodology",
+          "Designed and implemented RESTful APIs and GraphQL services",
+          "Optimized application performance and reduced load times by 40%",
+          "Maintained production environments using Docker and Kubernetes"
+        ]
+      },
+      "sastecskills": {
+        "company": "SastecSkills",
+        "position": "JavaScript Instructor",
+        "date": "June 2022 - September 2022",
+        "location": "On-site - Tunisia",
+        "description": [
+          "Successfully launched and completed MERN stack bootcamp program",
+          "Taught 30+ students modern web development technologies and best practices",
+          "Developed comprehensive curriculum covering React, Node.js, Express, and MongoDB",
+          "Mentored students through real-world projects using Agile/Scrum methodology",
+          "Achieved 95% student satisfaction and 85% job placement rate"
+        ]
+      },
+      "dotit": {
+        "company": "DOT-IT",
+        "position": "Full Stack Developer (Internship)",
+        "date": "February 2021 - June 2021",
+        "location": "On-site - Tunisia",
+        "description": [
+          "Developed a comprehensive freelancing platform similar to Fiverr/Upwork",
+          "Managed entire project lifecycle from conception to deployment",
+          "Implemented real-time features using Socket.io for instant messaging",
+          "Gained proficiency in Docker and Kubernetes for application deployment",
+          "Created responsive UI/UX designs using modern CSS frameworks"
+        ]
+      },
+      "digitalsolution": {
+        "company": "Digital Solution",
+        "position": "Front-End Developer (Internship)",
+        "date": "August 2020",
+        "location": "On-site - Tunisia",
+        "description": [
+          "Designed and developed websites for clients using HTML5, CSS3, and JavaScript",
+          "Implemented responsive designs for mobile and desktop platforms",
+          "Collaborated with designers to translate mockups into functional web pages",
+          "Optimized website performance and cross-browser compatibility"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Things I've Built",
+    "featured": "Featured Project",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "professional": "Professional Projects",
+    "personal": "Personal Projects",
+    "items": {
+      "dataStatistics": {
+        "title": "Data Statistics / Looker Studio Reports",
+        "description": "Developed a system to gather and refine information from various platforms. Generated Looker Studio dashboards to retrieve refined data from databases and graphically display it for specific customer purposes."
+      },
+      "projectTesting": {
+        "title": "Project Testing and Maintenance",
+        "description": "Implemented new features based on user feedback. Developed unit tests for .NET and C# projects. Automated API testing using Postman to streamline the testing process."
+      },
+      "orderAutomation": {
+        "title": "Order Automation System",
+        "description": "Developed a system that handles order transitions from the order management system to the delivery system. Created a dashboard to display order history and manage organizational settings."
+      },
+      "productsManagement": {
+        "title": "Products Management & XML File Generator",
+        "description": "Created cron jobs to synchronize product quantities and availability from external systems. Automated XML generation for product feeds and inventory management."
+      },
+      "qrCodeGenerator": {
+        "title": "QR Code Generator",
+        "description": "A web application for generating QR codes. Users can create QR codes for various types of information such as V-card, links, Wi-Fi network information, and phone calls."
+      },
+      "videoPlayer": {
+        "title": "Advanced Video Player",
+        "description": "Web application that plays videos and live streams using various formats (HLS, MP4, etc). Features include slides, chapters during videos, and 360° video support."
+      },
+      "justod": {
+        "title": "JustOd - Booking System",
+        "description": "Maintained and enhanced a comprehensive booking system. Fixed critical bugs and implemented new features to improve user experience and system reliability."
+      },
+      "pinparty": {
+        "title": "PinParty",
+        "description": "Mobile application for party sharing. Users can create party posts and receive requests from others to join their events."
+      },
+      "githubSearch": {
+        "title": "GitHub Search",
+        "description": "Web application that searches for GitHub profiles using GitHub APIs. Displays user statistics and recent repository activity with interactive charts."
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "items": {
+      "english": {
+        "degree": "Business English 4A * CEFR B1+",
+        "school": "The Amideast/Tunisia English Language Program",
+        "location": "Sousse, Tunisia",
+        "date": "March 2023 - May 2023",
+        "description": [
+          "Mastered business English and professional communication",
+          "Collaborated with peers from diverse professional backgrounds",
+          "Excelled in presentations and enhanced communication abilities",
+          "Achieved a grade of 94%"
+        ]
+      },
+      "bachelor": {
+        "degree": "Bachelor's Degree in Multimedia and Web",
+        "school": "Higher Institute of Computer Science and Communication Technology",
+        "location": "Sousse, Tunisia",
+        "date": "September 2018 - July 2021",
+        "description": [
+          "Demonstrated excellence in Multimedia and Web Development",
+          "Cultivated effective communication skills and business acumen",
+          "Graduated with honors"
+        ]
+      },
+      "highschool": {
+        "degree": "Baccalaureate in Computer Science",
+        "school": "High School Atef Cheib",
+        "location": "Hammamet, Tunisia",
+        "date": "September 2017 - July 2018",
+        "description": [
+          "Specialized in Computer Science",
+          "Graduated with honors, GPA: 12.32/20"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "What's Next?",
+    "description": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open. I'll try my best to get back to you!",
+    "button": "Say Hello"
+  },
+  "footer": {
+    "builtBy": "Designed & Built by Amine Beji",
+    "rights": "All rights reserved"
+  }
+}

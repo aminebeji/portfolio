@@ -1,0 +1,210 @@
+{
+  "navbar": {
+    "about": "Chi Sono",
+    "experience": "Esperienza",
+    "projects": "Progetti",
+    "contact": "Contatti",
+    "resume": "Curriculum",
+    "education": "Formazione"
+  },
+  "hero": {
+    "greeting": "Benvenuto nel mio portfolio. Sono",
+    "name": "Amine Beji.",
+    "title": "Do vita ai siti web.",
+    "description": "Sono uno sviluppatore Full Stack appassionato di creare applicazioni web eccezionali con focus sull'accessibilità e il design centrato sull'utente.",
+    "cta": "Contattami"
+  },
+  "about": {
+    "title": "Chi Sono",
+    "intro": "Ciao! Sono Amine, uno sviluppatore Full Stack appassionato con sede in Tunisia.",
+    "description1": "Mi piace creare cose che vivono su Internet, che si tratti di siti web, applicazioni o qualsiasi cosa nel mezzo. Il mio viaggio nella programmazione è iniziato nel 2012 quando ho creato il mio primo account Facebook ed ero stupito da come le persone potessero costruire qualcosa del genere. Questa curiosità mi ha portato a scoprire il mondo della programmazione e dello sviluppo, e ne sono appassionato da allora!",
+    "description2": "Oggi ho avuto il privilegio di lavorare in un'azienda tecnologica, una start-up e di insegnare in un bootcamp. Il mio focus principale in questi giorni è costruire prodotti accessibili e inclusivi ed esperienze digitali presso Cookie Jar Tech per una varietà di clienti.",
+    "description3": "Ecco alcune tecnologie con cui ho lavorato di recente:",
+    "skills": {
+      "javascript": "JavaScript (ES6+)",
+      "typescript": "TypeScript",
+      "react": "React",
+      "nodejs": "Node.js",
+      "golang": "GoLang",
+      "nextjs": "Next.js",
+      "docker": "Docker",
+      "kubernetes": "Kubernetes"
+    }
+  },
+  "experience": {
+    "title": "Dove Ho Lavorato",
+    "technologiesUsed": "Tecnologie utilizzate:",
+    "jobs": {
+      "prefe": {
+        "company": "Prefe",
+        "position": "Sviluppatore Frontend",
+        "date": "Ottobre 2024 - Presente",
+        "location": "Remoto - Italia",
+        "description": [
+          "Sviluppo e manutenzione di applicazioni web utilizzando framework JavaScript moderni",
+          "Implementazione di interfacce utente responsive e accessibili",
+          "Collaborazione con team multifunzionali per fornire soluzioni di alta qualità",
+          "Ottimizzazione delle prestazioni dell'applicazione e dell'esperienza utente"
+        ]
+      },
+      "cookiejar": {
+        "company": "Cookie Jar Tech",
+        "position": "Sviluppatore Full Stack e Team Leader Tecnico",
+        "date": "Agosto 2021 - Ottobre 2024",
+        "location": "Remoto - Lituania",
+        "description": [
+          "Guidare lo sviluppo di applicazioni web utilizzando React.js, Next.js, GoLang e Node.js",
+          "Gestire e guidare team di sviluppo per fornire soluzioni scalabili e performanti",
+          "Implementare pipeline CI/CD utilizzando Docker, GitLab e Kubernetes",
+          "Progettare microservizi e sistemi distribuiti per applicazioni ad alto traffico",
+          "Collaborare con gli stakeholder per definire requisiti tecnici e roadmap del progetto"
+        ]
+      },
+      "sastec": {
+        "company": "Sastec Group",
+        "position": "Sviluppatore Full Stack e Team Leader",
+        "date": "Agosto 2021 - Agosto 2022",
+        "location": "In sede - Tunisia",
+        "description": [
+          "Sviluppato applicazioni full-stack utilizzando MERN stack e moderni framework JavaScript",
+          "Guidato un team di 5 sviluppatori in ambiente agile utilizzando metodologia Scrum",
+          "Progettato e implementato API RESTful e servizi GraphQL",
+          "Ottimizzato le prestazioni dell'applicazione e ridotto i tempi di caricamento del 40%",
+          "Mantenuto ambienti di produzione utilizzando Docker e Kubernetes"
+        ]
+      },
+      "sastecskills": {
+        "company": "SastecSkills",
+        "position": "Istruttore JavaScript",
+        "date": "Giugno 2022 - Settembre 2022",
+        "location": "In sede - Tunisia",
+        "description": [
+          "Lanciato e completato con successo programma bootcamp MERN stack",
+          "Insegnato a oltre 30 studenti tecnologie e best practice di sviluppo web moderno",
+          "Sviluppato curriculum completo che copre React, Node.js, Express e MongoDB",
+          "Guidato studenti attraverso progetti reali utilizzando metodologia Agile/Scrum",
+          "Raggiunto il 95% di soddisfazione degli studenti e l'85% di tasso di collocamento lavorativo"
+        ]
+      },
+      "dotit": {
+        "company": "DOT-IT",
+        "position": "Sviluppatore Full Stack (Stage)",
+        "date": "Febbraio 2021 - Giugno 2021",
+        "location": "In sede - Tunisia",
+        "description": [
+          "Sviluppato una piattaforma di freelancing completa simile a Fiverr/Upwork",
+          "Gestito l'intero ciclo di vita del progetto dalla concezione al deployment",
+          "Implementato funzionalità in tempo reale utilizzando Socket.io per messaggistica istantanea",
+          "Acquisito competenza in Docker e Kubernetes per il deployment delle applicazioni",
+          "Creato design UI/UX responsive utilizzando moderni framework CSS"
+        ]
+      },
+      "digitalsolution": {
+        "company": "Digital Solution",
+        "position": "Sviluppatore Front-End (Stage)",
+        "date": "Agosto 2020",
+        "location": "In sede - Tunisia",
+        "description": [
+          "Progettato e sviluppato siti web per clienti utilizzando HTML5, CSS3 e JavaScript",
+          "Implementato design responsive per piattaforme mobile e desktop",
+          "Collaborato con designer per tradurre mockup in pagine web funzionali",
+          "Ottimizzato prestazioni del sito web e compatibilità cross-browser"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Cosa Ho Costruito",
+    "featured": "Progetto In Evidenza",
+    "viewProject": "Vedi Progetto",
+    "viewCode": "Vedi Codice",
+    "professional": "Progetti Professionali",
+    "personal": "Progetti Personali",
+    "items": {
+      "dataStatistics": {
+        "title": "Statistiche Dati / Report Looker Studio",
+        "description": "Sviluppato un sistema per raccogliere e raffinare informazioni da varie piattaforme. Generato dashboard Looker Studio per recuperare dati raffinati dal database e visualizzarli graficamente."
+      },
+      "projectTesting": {
+        "title": "Test e Manutenzione Progetto",
+        "description": "Implementato nuove funzionalità basate sul feedback degli utenti. Sviluppato test unitari per progetti .NET e C#. Automatizzato test API utilizzando Postman."
+      },
+      "orderAutomation": {
+        "title": "Sistema di Automazione Ordini",
+        "description": "Sviluppato un sistema che gestisce le transizioni degli ordini dal sistema di gestione ordini al sistema di consegna. Creato dashboard per visualizzare la cronologia degli ordini."
+      },
+      "productsManagement": {
+        "title": "Gestione Prodotti e Generatore File XML",
+        "description": "Creato cron job per sincronizzare quantità e disponibilità prodotti da sistemi esterni. Automatizzato generazione XML per feed prodotti."
+      },
+      "qrCodeGenerator": {
+        "title": "Generatore Codice QR",
+        "description": "Applicazione web per generare codici QR. Gli utenti possono creare codici QR per vari tipi di informazioni come V-card, link, informazioni Wi-Fi e chiamate telefoniche."
+      },
+      "videoPlayer": {
+        "title": "Lettore Video Avanzato",
+        "description": "Applicazione web che riproduce video e streaming live utilizzando vari formati (HLS, MP4, ecc). Include funzionalità come slide, capitoli e supporto video 360°."
+      },
+      "justod": {
+        "title": "JustOd - Sistema di Prenotazione",
+        "description": "Mantenuto e migliorato un sistema di prenotazione completo. Risolto bug critici e implementato nuove funzionalità per migliorare l'esperienza utente."
+      },
+      "pinparty": {
+        "title": "PinParty",
+        "description": "Applicazione mobile per condivisione feste. Gli utenti possono creare post di feste e ricevere richieste da altri per unirsi ai loro eventi."
+      },
+      "githubSearch": {
+        "title": "Ricerca GitHub",
+        "description": "Applicazione web che cerca profili GitHub utilizzando API GitHub. Visualizza statistiche utente e attività repository recente con grafici interattivi."
+      }
+    }
+  },
+  "education": {
+    "title": "Formazione",
+    "items": {
+      "english": {
+        "degree": "Inglese Commerciale 4A * QCER B1+",
+        "school": "Il Programma di Lingua Inglese Amideast/Tunisia",
+        "location": "Sousse, Tunisia",
+        "date": "Marzo 2023 - Maggio 2023",
+        "description": [
+          "Padroneggiato inglese commerciale e comunicazione professionale",
+          "Collaborato con colleghi da diversi background professionali",
+          "Eccelluto nelle presentazioni e migliorato capacità comunicative",
+          "Raggiunto un voto del 94%"
+        ]
+      },
+      "bachelor": {
+        "degree": "Laurea in Multimedia e Web",
+        "school": "Istituto Superiore di Informatica e Tecnologie di Comunicazione",
+        "location": "Sousse, Tunisia",
+        "date": "Settembre 2018 - Luglio 2021",
+        "description": [
+          "Dimostrato eccellenza nello sviluppo multimedia e web",
+          "Coltivato competenze comunicative efficaci e acume commerciale",
+          "Laureato con lode"
+        ]
+      },
+      "highschool": {
+        "degree": "Diploma in Informatica",
+        "school": "Liceo Atef Cheib",
+        "location": "Hammamet, Tunisia",
+        "date": "Settembre 2017 - Luglio 2018",
+        "description": [
+          "Specializzato in Informatica",
+          "Diplomato con lode, media: 12.32/20"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contattami",
+    "subtitle": "Qual è il Prossimo Passo?",
+    "description": "Attualmente sto cercando nuove opportunità. Che tu abbia una domanda o voglia semplicemente salutare, la mia casella di posta è sempre aperta. Farò del mio meglio per risponderti!",
+    "button": "Saluta"
+  },
+  "footer": {
+    "builtBy": "Progettato e Costruito da Amine Beji",
+    "rights": "Tutti i diritti riservati"
+  }
+}
