@@ -16,7 +16,7 @@ export const Experience = [
       "Collaborating with cross-functional teams to deliver high-quality solutions",
       "Optimizing application performance and user experience"
     ],
-    technologies: ["React.js", "Ant Design", "Redux toolkit", "Git" , "leaflet maps" , "E-Charts"],
+    technologies: ["React.js", "Ant Design", "Redux toolkit", "Git", "leaflet maps", "E-Charts"],
     link: "https://prefe.com/",
     tag: "prefe",
     post: "Frontend Developer",
@@ -100,40 +100,62 @@ export const Experience = [
     post: "Front-End Developer (Internship)",
   },
 ];
-
 export const PROFESIONNAL_PROJECTS = [
   {
+    id: 12,
+    title: "Prefe – Retail Analytics & Price Monitoring Platform",
+    description: `Contributed to the development of a data-driven platform for retail analytics and market intelligence.
+Implemented features for price monitoring, distribution tracking, and promotional analysis across multiple retail channels.
+Built dashboards and data processing workflows to transform large datasets into actionable business insights for decision-making.`,
+
+    techno: ["React.js", "Leaflet Maps", "E-Charts", "Ant Design", "Redux Toolkit", "Git"],
+    link: "https://www.prefe.it/",
+    assets: [],
+  },
+  {
     id: 1,
+    title: "Studyfy (School Management Platform)",
+    description: `Built a full-stack school management system used to manage academic structures, schedules, teachers, and students.
+Implemented complex role-based access, dynamic scheduling, PDF generation, and real-time data handling.
+Designed and developed the full architecture from scratch, including frontend, backend, and infrastructure.`,
+
+    techno: ["React.js", "Node.js", "MongoDB", "Redux", "Docker", "React Native"],
+    link: "https://stagging.studyfytn.com/",
+    assets: [],
+  },
+  {
+    id: 2,
+    title: "Personal Portfolio",
+    description: `Designed and developed a personal portfolio to showcase projects, technical skills, and professional experience.
+Focused on performance, clean UI/UX, and responsive design with modern web technologies.`,
+
+    techno: ["React.js", "Next.js", "CSS", "Vercel"],
+    link: "https://aminebeji.github.io/portfolio/",
+    assets: ["/projects/portfolio/portfolio.png"],
+  },
+  {
+    id: 3,
     title: "DATA STATISTICS / LOOKER STUDIO REPORTS",
-    description: `Developed a system to gather and refine information from various platforms used by our
-    customers.
-    Generated a Looker Studio dashboard to retrieve refined data from the database and
-graphically display it for specific customer purposes.
-`,
+    description: `Developed a system to gather and refine information from various platforms used by customers.
+Generated a Looker Studio dashboard to retrieve refined data from the database and display it visually.`,
 
-    techno: ["Node.js", "Looker Studio", "PostgresSQL", "Google Extensions"],
-
+    techno: ["Node.js", "Looker Studio", "PostgreSQL", "Google Extensions"],
     assets: ["/projects/player/video_player.png"],
   },
   {
-    id: 1,
+    id: 4,
     title: "PROJECT TESTING AND MAINTENANCE",
-    description: `Implemented new features based on user feedback and project requirements to improve
-    the overall system.
-    Developed unit tests for the .NET and C# project to ensure code reliability and
-performance.
-Automated API testing using Postman to streamline the testing process and improve
-efficiency`,
+    description: `Implemented new features based on user feedback and requirements.
+Developed unit tests for .NET/C# systems and automated API testing using Postman.`,
 
-    techno: [".NET", "C#", "Q&A", "PostMan", "Automation"],
-
+    techno: [".NET", "C#", "QA", "Postman", "Automation"],
     assets: ["/projects/player/video_player.png"],
   },
   {
-    id: 1,
-    title: "Order automation system",
-    description: `Developed a system that handles order transitions from the order management system to the delivery system.
-    Developed a dashboard to display the history of order transitions and manage settings to organize orders.`,
+    id: 5,
+    title: "Order Automation System",
+    description: `Developed a system handling order transitions between order management and delivery systems.
+Built a dashboard to track order history and manage configuration settings.`,
 
     techno: [
       "Vue.js 3",
@@ -144,75 +166,71 @@ efficiency`,
       "Linnworks",
       "E-Commerce",
     ],
-
     assets: ["/projects/player/video_player.png"],
   },
   {
-    id: 2,
-    title: "Products Management & XML file generator",
-    description: `Created cron jobs to synchronize product quantities and availability from an external system`,
+    id: 6,
+    title: "Products Management & XML Generator",
+    description: `Created cron jobs to synchronize product quantities and availability from external systems.`,
 
     techno: [
       "Vue.js 2",
       "Vuex",
       "Node.js",
-      "Veutify",
+      "Vuetify",
       "MongoDB",
       "Linnworks",
       "E-Commerce",
     ],
-
     assets: ["/projects/player/video_player.png"],
   },
   {
-    id: 3,
+    id: 7,
     title: "QR Code Generator",
-    description: `A web application for generating QR codes. Users will be able to create QR codes for various types of information such as V-card, links, Wi-Fi network information, and phone calls.`,
+    description: `A web app to generate QR codes for links, Wi-Fi, V-card, and more.`,
 
-    techno: ["React.js", "chakra-ui", "QR-code"],
+    techno: ["React.js", "Chakra UI", "QR Code"],
     link: "https://qr-code-generator-aminebeji.vercel.app/",
     github: "https://github.com/aminebeji/qr_code_generator",
     assets: ["/projects/player/video_player.png"],
   },
   {
-    id: 4,
+    id: 8,
     title: "Video Player",
-    description: `a web application that could play videos and lives using their links (hls , mp4 ,etc ). It has so many feature like adding slides and chapter during the videos , it could play a 360° video.`,
+    description: `A web application supporting HLS/MP4 playback, live streaming, chapters, slides, and 360° video.`,
 
     techno: ["Next.js", "Redux", "Video.js", "Vime.js"],
     link: "https://player-fo-test.empreinte.tech/",
     assets: ["/projects/player/video_player.png"],
   },
   {
-    id: 5,
+    id: 9,
     title: "JustOd",
-    description: `I manage to maintain a booking system for my client and fix some bugs and add some cool feature to his application.`,
-    techno: ["React.js", "Redux", "Node.js", "Graphql", "Mysql"],
+    description: `Maintained and improved a booking system, fixing bugs and adding new features.`,
+
+    techno: ["React.js", "Redux", "Node.js", "GraphQL", "MySQL"],
     link: "https://justod.com/",
     assets: ["/projects/justod/justod.png"],
   },
   {
-    id: 6,
+    id: 10,
     title: "PinParty",
-    description: `A mobile application for party sharing, every user could create a post for his party and receive requests from other user to join his party.`,
+    description: `A mobile app where users can create and join parties through shared posts.`,
 
     techno: ["React Native", "Redux", "Node.js", "MongoDB"],
-    link: "",
-    github: "",
     assets: [""],
   },
   {
-    id: 7,
+    id: 11,
     title: "Github Search",
-    description: `A web application could search for any github profile using githu APIs.the final result will show some statistics on the user and his last github repository.`,
+    description: `Search GitHub profiles and display stats and repositories using GitHub APIs.`,
 
-    techno: ["Vue.js", "Vuex", "vue-chartjs", "bootstrap"],
+    techno: ["Vue.js", "Vuex", "Chart.js", "Bootstrap"],
     link: "https://github-search-aminebeji.vercel.app/",
     github: "https://github.com/aminebeji/github_search",
     assets: [""],
   },
 ];
-
 export const PERSONAL_PROJECTS = [
   {
     id: 1,
